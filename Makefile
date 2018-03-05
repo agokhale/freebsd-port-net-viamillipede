@@ -10,6 +10,7 @@ COMMENT=	Parallel TCP for pipe transport
 
 LICENSE=	BSD2CLAUSE
 
+USES=		uidfix
 USE_GITHUB= 	yes
 GH_ACCOUNT=	agokhale
 GH_TAGNAME=	v0.6
