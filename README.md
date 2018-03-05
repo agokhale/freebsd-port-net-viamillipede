@@ -1,2 +1,3 @@
 # freebsd-port-net-viamillipede
-ports scaffolding for porting freebsd back to freebsd
+https://github.com/agokhale/viamillipede
+ports scaffolding for porting  a thing written on FreeBSD back to FreeBSD

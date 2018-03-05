@@ -12,14 +12,14 @@ LICENSE=	BSD
 
 USE_GITHUB= 	yes
 GH_ACCOUNT=	agokhale
-GH_TAGNAME=	v0.6
+GH_TAGNAME=	v0.7
 
 BINS=		viamillipede
 
 .PHONY= bad_ideas
 bad_ideas: Makefile
 	rm distinfo
-	sudo make fetch 
+	sudo make fetch
 	make makesum
 
 .include <bsd.port.mk>
