@@ -8,7 +8,7 @@ CATEGORIES=	net
 MAINTAINER=	ash_ports@aeria.net
 COMMENT=	Parallel TCP for pipe transport
 
-LICENSE=	BSD2CLAUSE
+LICENSE=	BSD3CLAUSE
 
 USES=		uidfix
 USE_GITHUB= 	yes
