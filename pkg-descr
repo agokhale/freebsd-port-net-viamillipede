@@ -4,6 +4,6 @@ Viamillipede is client/server program built to improve pipe transport across
 networks by using multiple TCP sessions. It demultiplexes stdin into multiple 
 buffered TCP connectons and then terminates the connections into stdout on 
 another host. Order is guaranteed and the pipe is transparent to the source/sink
- programs.  It is as simple to use as Netcat and can generate large throughputs.
+programs.  It is as simple to use as Netcat and can generate large throughputs.
 
 WWW: https://github.com/agokhale/viamillipede
