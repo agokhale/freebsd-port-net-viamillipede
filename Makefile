@@ -14,10 +14,4 @@ USES=		uidfix
 USE_GITHUB= 	yes
 GH_ACCOUNT=	agokhale
 
-.PHONY= bad_ideas
-bad_ideas: Makefile
-	${RM} distinfo
-	sudo make fetch
-	make makesum
-
 .include <bsd.port.mk>
