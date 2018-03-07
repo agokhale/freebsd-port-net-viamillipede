@@ -11,6 +11,9 @@ COMMENT=	Parallel TCP for pipe transport
 LICENSE=	BSD3CLAUSE
 
 USES=		uidfix
+
+PLIST_FILES=	bin/viamillipede man/man1/viamillipede.1.gz
+
 USE_GITHUB= 	yes
 GH_ACCOUNT=	agokhale
 
