@@ -9,6 +9,7 @@ MAINTAINER=	ash_ports@aeria.net
 COMMENT=	Parallel TCP for pipe transport
 
 LICENSE=	BSD3CLAUSE
+LICENSE_FILE=   ${WRKSRC}/LICENSE
 
 USES=		uidfix
 
